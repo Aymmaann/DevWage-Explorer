@@ -25,7 +25,7 @@ Ensure you have the following packages installed:
 ## Installation
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Aymmaann/DevWage-Explorer.git
 ```
 2. Install dependencies:
 
@@ -69,6 +69,8 @@ Utilizes caching to optimize data loading for improved performance.
 Contains the code used in a Jupyter notebook for training the machine learning model.
 Involves data loading, preprocessing, feature engineering, model selection, training, and evaluation.
 Chooses the Decision Tree Regressor as the final model and saves it along with Label Encoders using the pickle library.
+
+Note that the 2023 Stack Overflow Developer Survey dataset, essential for the application, can be downloaded from https://insights.stackoverflow.com/survey.
 
 ## Model Training
 1. #### Data Collection:
