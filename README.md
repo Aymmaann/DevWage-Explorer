@@ -1,5 +1,5 @@
 # DevWage Explorer
-DevWage Explorer is a web application designed to provide predictive insights into estimating future Software Engineering salaries. This application utilizes machine learning models trained on survey data, offering users the ability to explore salary trends and predict their potential earnings based on various factors.
+DevWage Explorer is a web application designed to provide predictive insights into estimating future Software Engineering salaries. 
 
 
 ## Table of Contents
