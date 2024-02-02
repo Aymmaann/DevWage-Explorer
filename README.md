@@ -6,6 +6,7 @@ DevWage Explorer is a web application designed to provide predictive insights in
 - Getting Started
 - Features
 - Usage
+- File Overview in DevWage Explorer
 - Model Training
 - Model Usage in the Application
 - Contributing
@@ -44,6 +45,30 @@ streamlit run application.py
 3. Fill in the required information in the Predict page to calculate your predicted salary.
 4. Explore current trends by selecting different visualization options on the Explore page.
 
+
+## File Overview in DevWage Explorer
+- #### predict.py:
+Imports necessary libraries and modules, including Streamlit, NumPy, and the saved machine learning model.
+Defines categorical variables such as countries, education levels, and age groups.
+Provides functions for loading the saved machine learning model and preprocessing user input for salary prediction.
+Implements the Streamlit user interface for the salary prediction page.
+
+- #### application.py:
+Imports Streamlit and the functions defined in predict.py and data.py.
+Implements the main Streamlit web application.
+Provides a sidebar for users to choose between the "Predict" and "Explore" options.
+Calls the respective functions based on the user's choice.
+
+- #### data.py:
+Imports necessary libraries, including Streamlit, Pandas, and Matplotlib.
+Defines functions for data loading, cleaning, and exploration.
+Implements Streamlit visualizations to explore trends in Software Engineering salaries, such as pie charts, bar charts, and line charts.
+Utilizes caching to optimize data loading for improved performance.
+
+- #### Notebook for Model Training:
+Contains the code used in a Jupyter notebook for training the machine learning model.
+Involves data loading, preprocessing, feature engineering, model selection, training, and evaluation.
+Chooses the Decision Tree Regressor as the final model and saves it along with Label Encoders using the pickle library.
 
 ## Model Training
 1. #### Data Collection:
