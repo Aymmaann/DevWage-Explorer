@@ -4,7 +4,7 @@ DevWage Explorer is a web application designed to provide predictive insights in
 
 ## Application Preview
 <img width="1440" alt="Screenshot 2024-02-03 at 9 22 15 PM" src="https://github.com/Aymmaann/DevWage-Explorer/assets/114000374/ea64227f-e92a-483e-bbe4-ee33dc4dbc6a">
-<img width="1440" alt="Screenshot 2024-02-03 at 9 22 27 PM" src="https://github.com/Aymmaann/DevWage-Explorer/assets/114000374/25d90f28-758e-4c76-881f-126504ca7d8f">
+<img width="1440" alt="Screenshot 2024-02-03 at 9 23 58 PM" src="https://github.com/Aymmaann/DevWage-Explorer/assets/114000374/b73ed3e4-cea2-40a4-bbe3-b177d696f70b">
 
 
 ## Table of Contents
