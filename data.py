@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from zipfile import ZipFile
 
 
 def shorten_categories(category, cutoff):
@@ -42,7 +43,11 @@ def organize_age(age):
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv('survey_results_public.csv')
+    zip_file_path = 'survey_results.csv.zip'
+    with ZipFile(zip_file_path, 'r') as zip_file:
+        csv_file_name = 'survey_results.csv'
+        data = pd.read_csv(zip_file.open(csv_file_name))
+
     data = data[['Country', 'EdLevel', 'Age', 'YearsCodePro', 'Employment', 'ConvertedCompYearly']]
     data = data.rename({'ConvertedCompYearly': 'Salary'}, axis=1)
     data = data[data['Salary'].notnull()]
